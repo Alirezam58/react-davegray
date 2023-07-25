@@ -1,9 +1,7 @@
-import React from 'react';
-
-const Header = () => {
+const Header = (props) => {
   return (
     <header>
-      <h2>Geroceries List</h2>
+      <h2>{props.titel}</h2>
     </header>
   );
 };
