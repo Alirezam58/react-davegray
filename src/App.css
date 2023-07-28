@@ -89,3 +89,72 @@ ul{
   padding: 1rem 0;
   font-size: 22px;
 }
+
+.addForm{
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  border-bottom: 1px solid #eee;
+  margin: .5rem 0;
+  padding: 0 .5rem .25rem;
+}
+
+.addForm label{
+  position: absolute;
+  left: -99999px;
+}
+
+.addForm input[type='text']{
+  flex-grow: 1;
+  max-width: calc(100%-50px);
+  min-height: 36px;
+  font-size: .8rem;
+  padding: .25rem;
+  border-radius: .25rem;
+  margin-right: .25rem;
+  outline: none;
+}
+
+button{
+  height: 36px;
+  min-height: 36px;
+  border-radius: .25rem;
+  padding: .5rem;
+  font-size: .8rem;
+  background-color: aliceblue;
+  color: blue;
+  cursor: pointer;
+}
+
+button:focus ,
+button:hover{
+  color: #eee;
+  background-color: limegreen;
+  outline: none;
+}
+
+.searchForm{
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  border-bottom: 1px solid #eee;
+  margin: .5rem 0;
+  padding: 0 .5rem .25rem;
+}
+
+.searchForm label{
+  position: absolute;
+  left: -99999px;
+}
+
+.searchForm input[type='text']{
+  flex-grow: 1;
+  max-width: calc(100%-50px);
+  min-height: 36px;
+  font-size: .8rem;
+  padding: .25rem;
+  border-radius: .25rem;
+  margin-right: .25rem;
+  outline: none;
+}
+
